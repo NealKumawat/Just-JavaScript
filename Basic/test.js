@@ -1,0 +1,1 @@
+console.log("Watashiwa neal desu")
