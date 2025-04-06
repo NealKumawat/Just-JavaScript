@@ -1,2 +1,44 @@
 If u want to go through documentations search for mdn after the keyword
+
 Specifications of JS could be found on tc39.es
+
+
+
+STATICALLY TYPED LANGUAGES
+You must tell the compiler the type of each variable before using it.
+If type doesn’t match, it throws an error before running.
+
+DYANAMICALLY TYPED LANGUAGES
+You don’t declare types – the interpreter figures it out.
+If type error happens, it crashes only while running.
+
+
+
+-> IF WE USE TYPEOF IN FOLLOWING:-
+1. Undefined = undefined
+2. Null = object
+3. Boolean = boolean
+4. Number = number
+5. Object (native and does not implement) = object
+6. Object (native or host and does implement) = function
+7. Object (host and does not implement) = object
+
+
+-> DATATYPES
+
+PRIMITIVE:-
+1. Number - 2 to the power 53
+2. BigInt
+3. String
+4. Boolean - T/F
+5. Null - represents emptiness
+6. Undefined - value not assigned yet
+7. Symbol - uniqueness
+
+
+NON PRIMITIVE or REFERENCE
+1. Array
+2. Objects - like Dictionaries
+3. Functions
+
+all non primitive have datatype as "function" and Function's datatype is objfunc

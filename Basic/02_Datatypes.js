@@ -6,18 +6,30 @@
 // The above would give error
 // Can be fixed by using ;
 
-//Datatypes
-/*number - 2 to the power 53
-BigInt
-String
-Boolean - T/F
-null - represents emptiness
-undefined - value not assigned yet
-symbol - uniqueness
-Object*/
+/**************Datatypes*******************************
+
+PRIMITIVE:-
+
+1. Number - 2 to the power 53
+2. BigInt
+3. String
+4. Boolean - T/F
+5. Null - represents emptiness
+6. Undefined - value not assigned yet
+7. Symbol - uniqueness
+
+
+NON PRIMITIVE or REFERENCE
+1. Array
+2. Objects - like Dictionaries
+3. Functions
+
+all non prim have datatype as "function" and Function's DT is objfunc
+*/
 
 
 let age = 34
 console.log(typeof age);
 console.log(typeof null)    // #object (this is something odd)
 console.log(typeof undefined)   //undefined
+
