@@ -42,3 +42,8 @@ NON PRIMITIVE or REFERENCE
 3. Functions
 
 all non primitive have datatype as "function" and Function's datatype is objfunc
+
+*******************************************************************************
+MEMORY
+1. Stack - in primitive (copy memory)
+2. Heap - in non primitive (og changes)
