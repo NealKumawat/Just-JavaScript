@@ -44,7 +44,7 @@ console.log(1 + "2")    //#12
 console.log("1" + 2 + 3)    //#123
 console.log(1 + 2 + "3")    //#33
 console.log(+true)  //#1
-console.log(true+)  //#error
+// console.log(true+)  //#error
 console.log("")     //#0
 
 
