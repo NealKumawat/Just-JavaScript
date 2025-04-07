@@ -11,7 +11,7 @@ console.log(`Everyone ${a}, my name is ${b}`)
 // There is one more way to declare string
 const GameName = new String('NealKumawat')
 
-// Lets use indesing
+// Lets use indexing
 console.log(GameName[0])
 console.log(GameName[2])
 console.log(GameName[3])

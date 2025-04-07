@@ -53,3 +53,16 @@ The result would be a = 1, b = 3
 
 > Heap is like if a = 1, b = a, b = 3
 The result would be a = 3, b = 3
+
+
+
+************************************************************************
+WAY TO GO THROUGH PROTOTYPES in console(inspect mode)
+
+>const GameName = new String('NealKumawat')
+>GameName
+
+>const balance = new Number(340)
+>balance
+
+>console.log(Math)
