@@ -47,3 +47,9 @@ all non primitive have datatype as "function" and Function's datatype is objfunc
 MEMORY
 1. Stack - in primitive (copy memory)
 2. Heap - in non primitive (og changes)
+
+> Stack is stacked in one by one and if a=1, b=a, b=3
+The result would be a = 1, b = 3
+
+> Heap is like if a = 1, b = a, b = 3
+The result would be a = 3, b = 3
