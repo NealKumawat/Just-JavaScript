@@ -21,31 +21,12 @@ console.log(score.toLocaleString('en-IN'))      //In Indian NS
 
 
 
-
-
-
-
-
 /*
-constructor
-: 
-ƒ Number()
-toExponential
-: 
-ƒ toExponential()
-toFixed
-: 
-ƒ toFixed()
-toLocaleString
-: 
-ƒ toLocaleString()
-toPrecision
-: 
-ƒ toPrecision()
-toString
-: 
-ƒ toString()
-valueOf
-: 
-ƒ valueOf()
+constructor: ƒ Number()
+toExponential: ƒ toExponential()
+toFixed: ƒ toFixed()
+toLocaleString: ƒ toLocaleString()
+toPrecision: ƒ toPrecision()
+toString: ƒ toString()
+valueOf: ƒ valueOf()
 */
