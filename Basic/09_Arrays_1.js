@@ -19,13 +19,15 @@ const myArr02 = myArr.join()    // it changes the datatype to string
 console.log(myArr02.length)     // length is 13: len of string
 console.log(myArr.length)       // length is 6: no. of elements
 
-const myn1 = myArr.slice(1,3)
+
+console.log("A", myNewArr)
+
+const myn1 = myNewArr.slice(1,3)    // No changes in main Arr and Range not included
+
 console.log(myn1)
-console.log("B", )
 
-000000000000000000000000000000000000000000000000000000000000000000
-
-const myn1 = myArr.slice(1,3)
+console.log("B", myNewArr)
+const myn2 = myArr.splice(1,3)      // Changes in main Arr and Range included
 
 
 
