@@ -12,9 +12,9 @@ console.log(`Everyone ${a}, my name is ${b}`)
 const GameName = new String('NealKumawat')
 
 // Lets use indexing
-console.log(GameName[0])
-console.log(GameName[2])
-console.log(GameName[3])
+console.log(GameName[0])    //N
+console.log(GameName[2])    //a
+console.log(GameName[3])    //l
 
 
 //USING PROTOTYPES
@@ -27,7 +27,6 @@ console.log(GameName.indexOf('t'))  // #10
 console.log(GameName.substring(0, 5))   // #NealK
 console.log(GameName.slice(-10, 6))   // #ealKu
 // console.log(GameName.)
-
 
 
 

@@ -1,6 +1,6 @@
 const score = 5000000
 console.log(score);
-// This would just give 500
+// This would just give 5000000
 
 const balance = new Number(299)
 console.log(balance);

@@ -4,7 +4,7 @@
 
 // console.log("Sam Sulek") console.log(4+5)
 // The above would give error
-// Can be fixed by using ;
+// Can be fixed by using ';'
 
 /**************Datatypes*******************************
 
@@ -24,7 +24,7 @@ NON PRIMITIVE or REFERENCE
 2. Objects - like Dictionaries
 3. Functions
 
-all non prim have datatype as "function" and Function's DT is objfunc
+all non primitive have datatype as "function" and Function's DT is objfunction
 */
 
 
@@ -32,4 +32,3 @@ let age = 34
 console.log(typeof age);
 console.log(typeof null)    // #object (this is something odd)
 console.log(typeof undefined)   //undefined
-
