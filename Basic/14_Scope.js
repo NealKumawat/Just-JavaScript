@@ -12,3 +12,19 @@ console.log(c)      //But this would cause no error
 
 //Anything in functions like if, else, etc are referred as block scope
 // Anything outside the fuctions like above are called global scope
+
+//++++++++++++++++++++INTERESTING STUFF++++++++++++++++++++++++
+
+// There are two ways to declare a function like below
+
+add1(3)     // THIS CAN BE CALLED ANYWHERE
+function add1(num){
+    return num + 1
+}
+
+
+// add2(3)      THIS WOULD THROW AN ERROR
+const add2 = function(num){
+    return num + 2
+}
+// THIS HAS TO BE CALLED AFTER DECLARATION
