@@ -39,6 +39,7 @@ const add2 = (a,b) => {
 
 // or
 
-const add1 = (a,b) => a + b , // isme directly {} lagaya toh error aega
+const add1 = (a,b) => a + b 
+ // isme directly {} lagaya toh error aega
 
 // curly braces m wrap kra toh return keyword likhna padega but paranthesis ya ese hi chhod diya toh nhi
