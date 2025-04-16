@@ -142,4 +142,5 @@ false == ''     #true
 
 +,-,*,/ are arithmatic operators
 <, >, ==, etc are relational or comparision operators
-&&
+&&, || are logical operators
+?? is called Nullish Coalescing operator

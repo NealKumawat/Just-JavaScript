@@ -1,4 +1,4 @@
-// IF STATEMENT
+/********************* IF-ELSE STATEMENT *****************************/
 const n = false
 if (n){
     console.log("Hnji");
@@ -7,13 +7,15 @@ else {
     console.log("Hejiii");
 }
 
-// Implicit scope
+
+
+
+/****************** IMPLICIT SCOPE **************************/
 if (2332 > 332) console.log("Samsung"); // Is good to use
 
 if (232 > 32) console.log("Prr Prr"), console.log("Patapim"); // Is bad to use
 
 // else if
-
 
 
 const user = true
@@ -28,7 +30,9 @@ if (user || 2 == 2 || 3 == 4){
 }
 
 
-//******************************SWITCH CASE****************************************
+
+
+//********************** SWITCH CASE ****************************************
 const m = 5
 switch (m) {
     case 1:
@@ -52,7 +56,8 @@ switch (m) {
 
 
 
-/*****************************TRUTHY AND FALSY************************* 
+
+/******************* TRUTHY AND FALSY ************************* 
 Some values are assumed to be already true
 For eg                                                                          */
 
@@ -89,3 +94,26 @@ const empObj = {}
 if (Object.keys(empObj).length === 0) {
     console.log("Khaali Object");
 }
+
+
+
+
+/************ NULLISH COALESCING OPERATOR *************/
+//?? is called Nullish Coalescing operator
+let val1;
+val1 = 5 ?? 10 ?? 15    // First value
+val2 = null ?? 10       // Ignores null or undefined
+val3 = undefined ?? 15
+
+
+console.log(val1);
+console.log(val2);
+console.log(val3);
+
+
+
+
+/***************** TERNIARY OPERATOR **************************
+Kinda substitute for if else                                            */
+
+34 <= 32 ? console.log("Less than 32") : console.log("More than 32");
