@@ -130,3 +130,16 @@ If u call a function then the function goes into the bucket and then after the w
 
 Now if there is another function used in the first function then it is stacked over the first function.
 Sabse upar uska hi execution context h toh wo hi sabse pehle bahar niklega (LIFO)
+
+
+
+
+JUST REMEMBER (for browser console)
+false == 0      #true
+false == ''     #true
+0 == ''         #true
+
+
++,-,*,/ are arithmatic operators
+<, >, ==, etc are relational or comparision operators
+&&
