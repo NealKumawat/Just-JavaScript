@@ -68,3 +68,65 @@ WAY TO GO THROUGH PROTOTYPES in console(inspect mode)
 >balance
 
 >console.log(Math)
+**********************************************************************************************
+
+
+JAVASCRIPT EXECUTION CONTEXT
+i. GLOBAL EXECUTION CONTEXT - by .this
+ii. FUNCTIONAL EXECUTION CONTEXT
+iii. EVAL EXECUTION CONTEXT (part of GEC)
+
+First phase is MEMORY CREATION PHASE and then is EXECUTION PHASE
+
+
+Let's understand via an eg:
+
+
+let val1 = 10;
+let val2 = 5;
+function addNum(n1, n2){
+    let total = n1 + n2
+    return total
+}
+let result = addNum(val1, val2)
+let result2 = addNum(10,2)
+
+
+
+Now what is happening here is when we run this code GEC takes place.
+Every variable is stored first with the same value 'undefined'
+For eg:
+    val1: undefined
+    val2: undefined
+    addNum: defination
+    result: undefined
+    result2: undefined
+
+Now comes the execution phase
+Here is the allocation of values in the variables
+For eg:
+    val1: 10
+    val2: 5
+    # function: NO WORK HERE
+    
+    result: it is a function so a new EXECUTION PHASE (new executional context) is created for this in which again Memory Phase and Execution Phase would take place
+    So here in Memory Phase
+        val1: undefined
+        val2: undefined
+        total: undefined
+    Now Execution Phase
+        n1:  10
+        n2: 5
+        total: 15 (this value is returned to GEC)
+    SO AT FINAL WE HAVE result: 15
+    and this Executional Context is deleted after value return to function
+
+    SIMILARLY WITH THE result2
+
+******************************************************************************************************************************************************
+CALL STACK
+Imagine a narrow bucket. It is actually the Global Execution Context
+If u call a function then the function goes into the bucket and then after the work is done it exits
+
+Now if there is another function used in the first function then it is stacked over the first function.
+Sabse upar uska hi execution context h toh wo hi sabse pehle bahar niklega (LIFO)
