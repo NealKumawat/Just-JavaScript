@@ -23,11 +23,10 @@ console.log(myArr.length)       // length is 6: no. of elements
 console.log("A", myNewArr)
 
 const myn1 = myNewArr.slice(1,3)    // No changes in main Arr and Range not included
+console.log(myn1)                   // [34, 345]
 
-console.log(myn1)
-
-console.log("B", myNewArr)
-const myn2 = myArr.splice(1,3)      // Changes in main Arr and Range included
+console.log("B", myNewArr)          // Changes in main Arr and Range included
+const myn2 = myArr.splice(1,3)      // [4, 34, 345, 53]
 
 
 
