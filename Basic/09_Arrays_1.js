@@ -2,17 +2,19 @@
 // It makes shallow copies
 // There r following ways to create arrays
 const myArr = [0,9,87,43]
-const Hero = ["Tung Tung Sahur", "Lirili Larila", "Bombardino Crocodilo", "Cuppacino Assasino", "Shimpanzini Bananini", "Trippi Troppa", "Frigo Camelo", "Tralelo Tralala"]
+const Hero = ["Tung Tung Sahur", "Lirili Larila", "Bombardino Crocodilo", "Cuppacino Assasino", "Shimpanzini Bananini", "Trippi Troppa", "Frigo Camelo", "Traleo Tralala"]
 const myNewArr = new Array(4,34,345,53)
 
 // Accessing them
 console.log(myArr[0])
 
-// Some most useful Properties
+// Some of most useful Properties
 myArr.push(6) //to append value at last of the array
-myArr.unshift(0) // to add value at the 0th index
+myArr.unshift(8) // to add value at the 0th index
 //.pop()    is to remove the last value
 //.shift()  is to remove the first value
+console.log(myArr);
+
 
 console.log(myArr.includes(98))     // to check the existance of a value
 const myArr02 = myArr.join()    // it changes the datatype to string
