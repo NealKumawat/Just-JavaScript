@@ -56,6 +56,6 @@ console.log(`x:${x}, y:${y}`);
 
 let a = 3;
 const b = ++a;
-// here y was assigned x later and x was incremented firstly
+// here b was assigned a later and a was incremented firstly
 console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
