@@ -37,7 +37,7 @@ console.log(out_score_6);   //#NaN
 let value = 3
 let nvalue = -value //#-3
 
-// u can use concatinarion as well
+// u can use concatination as well
 // Below are some confusing egs
 console.log("1" + 2)    //#12
 console.log(1 + "2")    //#12
