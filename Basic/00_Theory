@@ -6,13 +6,15 @@ Specifications of JS could be found on tc39.es
 
 
 
-STATICALLY TYPED LANGUAGES
-You must tell the compiler the type of each variable before using it.
-If type doesn’t match, it throws an error before running.
+THERE ARE TWO TYPES OF LANGUAGES
 
-DYANAMICALLY TYPED LANGUAGES
-You don’t declare types – the interpreter figures it out.
-If type error happens, it crashes only while running.
+    STATICALLY TYPED LANGUAGES
+        You must tell the compiler the type of each variable before using it.
+        If type doesn’t match, it throws an error before running.
+
+    DYANAMICALLY TYPED LANGUAGES
+        You don’t declare types – the interpreter figures it out.
+        If type error happens, it crashes only while running.
 
 
 
