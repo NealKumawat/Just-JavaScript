@@ -22,7 +22,7 @@ console.log(GameName.__proto__)
 
 console.log(GameName.length)    // #11
 console.log(GameName.toUpperCase()) // #NEALKUMAWAT
-console.log(GameName.charAt(3)) // #1
+console.log(GameName.charAt(3)) // #l
 console.log(GameName.indexOf('t'))  // #10
 console.log(GameName.substring(0, 5))   // #NealK
 console.log(GameName.slice(-10, 6))   // #ealKu
