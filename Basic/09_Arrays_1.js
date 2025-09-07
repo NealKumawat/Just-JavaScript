@@ -18,7 +18,7 @@ console.log(myArr);
 
 console.log(myArr.includes(98))     // to check the existance of a value
 const myArr02 = myArr.join()    // it changes the datatype to string
-console.log(myArr02.length)     // length is 13: len of string
+console.log(myArr02.length)     // length is 13: len of string      This also includes commas.
 console.log(myArr.length)       // length is 6: no. of elements
 
 

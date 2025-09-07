@@ -21,8 +21,8 @@ console.log(Heroes);
 
 
 const sample = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
-const simplified = sample.flat(Infinity)
-const simplified1 = sample.flat(1)  // Things in bracket is depth
+const simplified = sample.flat(Infinity)    // All nested are now non nested
+const simplified1 = sample.flat(1)  // Things in bracket is depth (out to in)
 const simplified2 = sample.flat(2)
 
 console.log(simplified);
