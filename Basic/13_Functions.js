@@ -45,7 +45,6 @@ js2("Neal")
 // USING REST OPERATORS (...)
 function CalculateCartPrice(...num){
     return num  // This would create an array of all the mentioned value at the time of calling this function
-    return num
 }
 console.log(CalculateCartPrice(23,43,53,53,12,43));
 
@@ -53,7 +52,6 @@ console.log(CalculateCartPrice(23,43,53,53,12,43));
 
 function CalculateCartPrice01(val1, val2, ...num){
     return num  // Isme at the time of calling the function pehla argument would be assigned to val1, 2nd to val2 and rest would be added into the array called num
-    return num
 }
 console.log(CalculateCartPrice01(23,53,645,643,2334,434));
 

@@ -24,7 +24,7 @@ console.log(jsuser["email"]);
 console.log(typeof jsuser[mySym]);
 
 
-// Changeing the Values
+// Changing the Values
 jsuser.email = "nealkumawat@gmail.com"
 
 
