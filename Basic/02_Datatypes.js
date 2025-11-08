@@ -32,3 +32,7 @@ let age = 34
 console.log(typeof age);
 console.log(typeof null)    // #object (this is something odd)
 console.log(typeof undefined)   //undefined
+
+
+
+// Maps - (take reference from file 18_Looping.js)
