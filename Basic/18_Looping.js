@@ -24,16 +24,18 @@ do {
 
 //ARRAY SPECIFIC LOOPS
 
-// for of loop
+
+
+// FOR OF loop
+
 const array = [1,2,3,4,5];
 //for (const element of object) {
     
-//}   // this is the syntax of forof loop; element is variable like (i) and obj is anything on which loop is on
+//}    this is the syntax of forof loop; element is variable like (i) and obj is anything on which loop is on
 
 for (const i of array) {
     console.log(i);
 }   // it would just run as a normal loop without jumps
-
 
 
 
@@ -140,5 +142,54 @@ cpp 4 [ 'js', 'rb', 'py', 'java', 'cpp' ]               */
 
 
 
+const myCoding = [
+    {
+        languageName: "javascript",
+        languageFile: "js"
+    },
+    {
+        languageName: "java",
+        languageFile: "java"
+    },
+    {
+        languageName: "python",
+        languageFile: "py"
+    }
+]
 
-//  WATCH VIDEO 29 TO COMPLETE
+// Now we'll operate on this
+
+myCoding.forEach( (i) => {
+    console.log(i.languageName);
+} )
+
+/*
+javascript
+java
+python          */
+
+
+// Now lets see if we want to store any values using for Each loop anywhere in a variable
+
+const Coding = ['js', 'py', 'java', 'cpp', 'ruby']
+
+const store = Coding.forEach( (item) => {
+    return item
+} )     // undefined
+
+// So what exactly we can do for returning or storing values from an array. We use filter
+
+num = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const store_val = num.filter( (num) => num > 4 )    // if you use {} then you have to use return keyword
+console.log(store_val);
+
+// We can do this on forEach as well. How?
+const new_store = []
+
+num.forEach( (num) => {
+    if (num > 4) {
+        new_store.push(num)
+    }
+} )
+
+// We have am eg on the next file
